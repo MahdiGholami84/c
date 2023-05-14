@@ -72,7 +72,7 @@ if (isset($_GET['delete'])){
     $result=$db->prepare($query);
     $result->execute();
     header("location:index.php");
-}ff
+}
 ?>
 
 <!-- کد submit2 برای update یا همون edit کد دیتا های جدول رو بروزرسانی میکنه -->
